@@ -324,3 +324,67 @@ ul li:hover .submenu {
     font-size: 1.02em;
   }
 }
+
+@media (max-width: 360px) {
+  .skill-row {
+    width: 90%;
+  }
+
+  .navbar {
+    display: block;
+    padding: 2.35%;
+  }
+
+  .mountain {
+    width: 100%;
+  }
+
+  .cloud1,
+  .cloud2 {
+    width: 20%;
+  }
+
+  .cloud1 {
+    top: 420px;
+    right: 300px;
+  }
+
+  .cloud2 {
+    top: 480px;
+    left: 300px;
+  }
+
+  .logo {
+    margin-left: 1%;
+  }
+
+  .navbar ul {
+    margin-left: 10%;
+    margin-top: 22px;
+  }
+
+  .submenu {
+    margin-top: 5px;
+    left: 56%;
+  }
+
+  .submenu a {
+    padding: 5px 6px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 0.5em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+}
