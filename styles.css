@@ -387,4 +387,8 @@ ul li:hover .submenu {
   p {
     font-size: 0.8em;
   }
+  
+  .navbar ul li a {
+    font-size: 10px;
+  }
 }
