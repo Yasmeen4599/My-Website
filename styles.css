@@ -244,7 +244,7 @@ ul li:hover .submenu {
   }
 }
 
-@media (max-width: 630px) and (max-width: 380px){
+@media (max-width: 630px) {
   .skills {
     display: block;
   }
@@ -306,5 +306,21 @@ ul li:hover .submenu {
 
   .submenu a {
     padding: 5px 6px;
+  }
+  
+  h1 {
+    font-size: 3.25em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1.02em;
   }
 }
