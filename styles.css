@@ -400,5 +400,6 @@ ul li:hover .submenu {
 
   .top-container {
     padding-top: 235px;
+    height: 100vh
   }
 }
