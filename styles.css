@@ -396,6 +396,7 @@ ul li:hover .submenu {
 
   hr {
     width: 20%;
+    border-width: 5px;
   }
 
   .top-container {
