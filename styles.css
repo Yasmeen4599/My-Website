@@ -402,4 +402,8 @@ ul li:hover .submenu {
   .top-container {
     padding-top: 230px;
   }
+
+  .myimage {
+    width: 40%;
+  }
 }
