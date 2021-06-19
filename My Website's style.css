@@ -175,7 +175,7 @@ li {
 
 @media (max-width: 380px) {
   .lady {
-    width: 90%;
+    width: 95%;
   }
   
   .container {
@@ -183,6 +183,6 @@ li {
   }
   
   .nav {
-    height: 13.5%;
+    height: 14.5%;
   }
 }
