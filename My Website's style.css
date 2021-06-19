@@ -177,4 +177,8 @@ li {
   .lady {
     width: 100%;
   }
+  
+  .container {
+    font-size: smaller;
+  }
 }
