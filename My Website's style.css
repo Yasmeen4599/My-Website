@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  clip-path: polygon(0% 0%, 100% 0%, 95% 99.8%, 0% 85%);
+}
+
+.nav {
+  width: 100%;
+  height: 12.5%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.logo,
+.navlinks {
+  width: 50%;
+}
+
+.navlogo {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 1.5em;
+  margin-left: 15%;
+}
+
+.navlink_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlink_li + .navlink_li {
+  margin-left: 20%;
+}
+
+.navlink_a:hover {
+  color: rgb(243, 120, 141);
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.subsection {
+  width: 50%;
+  max-width: 30%;
+  margin: auto;
+}
+
+.herotext {
+  word-spacing: 2%;
+  font-size: xx-large;
+}
+
+.para {
+  font-family: "Lexend", sans-serif;
+  letter-spacing: 0.3em;
+  line-height: 3.5em;
+  font-size: small;
+}
+
+.btn {
+  padding: 0.75em 2em;
+  background-color: rgb(71, 70, 70);
+}
+
+.btn:hover {
+  background-color: rgb(197, 194, 194);
+  color: black;
+}
+
+.image_section {
+  width: 50%;
+  text-align: center;
+}
+
+.lady {
+  filter: drop-shadow(8em 6em 7em rgb(126, 125, 125));
+  padding: 2.5em;
+  max-width: 100%;
+}
+
+@media (max-width: 1030px) {
+  .main {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    margin-top: 10%;
+  }
+
+  .navlink_li + .navlink_li {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
+  }
+
+  .nav {
+    display: block;
+    height: 17.5%;
+  }
+
+  .logo,
+  .navlinks,
+  .image_section {
+    width: 100%;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .navlogo {
+    margin: auto;
+  }
+
+  .navlink_li + .navlink_li {
+    margin-left: 15%;
+  }
+
+  .main {
+    display: block;
+    margin: auto;
+  }
+
+  .subsection,
+  .image_section {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .sidetext {
+    width: auto;
+  }
+
+  .subsection {
+    margin-top: 10%;
+  }
+
+  .lady {
+    width: 50%;
+  }
+}
+
+@media (max-width: 563px) {
+  .lady {
+    width: 65%;
+  }
+}
+
+@media (max-width: 380px) {
+  .lady {
+    width: 100%;
+  }
+}
