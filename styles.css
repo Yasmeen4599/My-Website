@@ -224,7 +224,7 @@ ul li:hover .submenu {
     font-size: 25px;
 }
 .social i{
-    margin: 0 2% 0 0;
+    margin: auto;
     color: white;
     cursor: pointer ;
 }
