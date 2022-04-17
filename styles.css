@@ -220,6 +220,15 @@ ul li:hover .submenu {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+.social{
+    font-size: 25px;
+}
+.social i{
+    margin: 0 5% 0 0;
+    color: #DFDFDE;
+    cursor: pointer ;
+}
+
 @media (max-width: 900px) {
   .skills {
     display: block;
