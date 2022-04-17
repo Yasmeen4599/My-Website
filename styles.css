@@ -50,6 +50,7 @@ hr {
   background-color: #bfcba8;
   position: fixed;
   display: list-item;
+  z-index: 1;
 }
 
 .logo {
