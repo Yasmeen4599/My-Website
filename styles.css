@@ -224,7 +224,8 @@ ul li:hover .submenu {
 .social{
     font-size: 25px;
 }
-.social i{
+.social i,
+.profile i{
     margin: 0 1% 0 1%;
     color: white;
     cursor: pointer ;
