@@ -229,7 +229,7 @@ ul li:hover .submenu {
     color: white;
     cursor: pointer ;
 }
-.profile i{
+.profile p i{
     font-size: 25px;
     margin: 0 1% 0 1%;
     color: #5b8a72;
