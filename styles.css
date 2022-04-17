@@ -224,11 +224,16 @@ ul li:hover .submenu {
 .social{
     font-size: 25px;
 }
-.social i,
-.profile i{
+.social i{
     margin: 0 1% 0 1%;
     color: white;
     cursor: pointer ;
+}
+.profile i{
+    font-size: 25px;
+    margin: 0 1% 0 1%;
+    color: white;
+    cursor: pointer;
 }
 
 @media (max-width: 900px) {
